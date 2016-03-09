@@ -9,8 +9,10 @@ body
   font-family 'Source Code Pro', monospace
 
 .header
-  background url('https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925')
+  background url('/images/bg-header.jpg')
   background-position center
+  background-repeat no-repeat
+  background-color #726e6d
 
   .page-title
     font-weight 200
@@ -34,12 +36,16 @@ body
     text-decoration none
 
     &:hover
-      background-color #3AB795
+      background-color #bf4a74
       text-decoration underline
 
 .main-content
   margin 50px auto
   max-width 600px
+
+  h1
+    font-size 30px
+    margin-bottom 10px
 
   p
     line-height 1.6
